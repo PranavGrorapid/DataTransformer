@@ -1,0 +1,15 @@
+### Creating  schema
+ 
+
+POST http://localhost:3000/schema/transform
+Content-Type: application/json 
+
+{
+  "collection_id": 123,
+  "created_at": "2023-10-26T13:51:12-04:00",
+  "id": 456,
+  "position": 2,
+  "product_id": 789,
+  "sort_value": "0000000002",
+  "updated_at": "2023-10-26T13:51:12-04:00"
+}
